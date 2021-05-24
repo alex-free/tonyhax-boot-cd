@@ -1,0 +1,1133 @@
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head>
+		<title>PlayStation - Swap Trick FAQ - PlayStation - By JMuir - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+				<meta name="description" content="For PlayStation on the PlayStation, Swap Trick FAQ by JMuir." />
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRBR-a22c617a7b2aab2da1c",applicationID:"578849005"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(7),c=e(8),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(9);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e){return!(!e||!e.protocol||"file:"===e.protocol)}t.exports=r},{}],4:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(6),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],5:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],6:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],7:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],8:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],9:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?u(e,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){e&&a&&e(n,r,i);for(var c=t(i),f=v(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[h[n]];return p&&p.push([b,n,r,c]),c}}function o(e,t){y[e]=v(e).concat(t)}function m(e,t){var n=y[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return y[e]||[]}function g(e){return p[e]=p[e]||i(n)}function w(e,t){s(e,function(e,n){t=t||"feature",h[n]=t,t in d||(d[t]=[])})}var y={},h={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:w,abort:c,aborted:!1};return b}function o(e){return u(e,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=e("gos"),s=e(7),d={},p={},l=t.exports=i();t.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=x.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=e(2),c=e("handle"),f=e(7),u=e("ee"),s=e(5),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,w=g&&g.prototype;if(d(p.location)){NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:b,userAgent:s};e(1),e(4),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(e,t,n){function r(e,t){function n(t,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],e)}c(n+"start",[o,a,f],s,u);try{return p=t.apply(a,o)}catch(m){throw c(n+"err",[o,a,m],s,u),m}finally{c(n+"end",[o,a,p],s,u)}}return a(t)?t:(n||(n=""),nrWrapper[p]=t,o(t,nrWrapper,e),nrWrapper)}function r(e,t,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)f=t[u],c=e[f],a(c)||(e[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!m||t){var c=m;m=!0;try{e.emit(n,r,o,t,a)}catch(f){i([f,n,r,o],e)}m=c}}return e||(e=s),n.inPlace=r,n.flag=p,n}function i(e,t){t||(t=s);try{t.emit("internal-error",e)}catch(n){}}function o(e,t,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(e);return r.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(o){i([o],n)}for(var a in e)l.call(e,a)&&(t[a]=e[a]);return t}function a(e){return!(e&&e instanceof Function&&e.apply&&!e[p])}function c(e,t){var n=t(e);return n[p]=e,o(e,n,s),n}function f(e,t,n){var r=e[t];e[t]=c(r,n)}function u(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var s=e("ee"),d=e(8),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;t.exports=r,t.exports.wrapFunction=c,t.exports.wrapInPlace=f,t.exports.argsToArray=u},{}]},{},["loader"]);</script>
+		<meta content="origin" id="mref" name="referrer" />
+
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<link href="/a/css/v13.20210521195711.css" rel="stylesheet" type="text/css">
+		
+		
+				<link rel="canonical" href="https://gamefaqs.gamespot.com/ps/916392-playstation/faqs/4708" />
+		
+				<base href="/ps/916392-playstation/faqs/4708" />
+		
+		
+		<meta id="utag-data" name="utag-data" content="{&quot;siteType&quot;:&quot;gamefaqs-desktop&quot;,&quot;siteEdition&quot;:&quot;ww&quot;,&quot;deviceType&quot;:&quot;desktop&quot;,&quot;siteSection&quot;:&quot;Platforms&quot;,&quot;pageType&quot;:&quot;platform_faq_text&quot;,&quot;siteHier&quot;:&quot;Platforms|Platform|FAQs|FAQ|Text&quot;,&quot;userState&quot;:&quot;non authenticated&quot;,&quot;userType&quot;:&quot;anon&quot;,&quot;userId&quot;:null,&quot;regionCode&quot;:840,&quot;pageViewGuid&quot;:&quot;e9caee5d-a460-4965-b2c6-4cc78cd65630&quot;,&quot;articleType&quot;:&quot;faq&quot;,&quot;articleTitle&quot;:&quot;PlayStation (PlayStation) - Swap Trick FAQ by JMuir&quot;,&quot;productId&quot;:&quot;916392&quot;,&quot;productSeriesId&quot;:&quot;202424&quot;,&quot;productName&quot;:&quot;playstation|&quot;,&quot;productGenre&quot;:&quot;Hardware|Console&quot;,&quot;productPlatform&quot;:null,&quot;_test&quot;:&quot;not in test&quot;,&quot;page_event&quot;:null,&quot;soastaPageType&quot;:&quot;platform_faq_text&quot;}" />
+<meta id="ad-settings" content="" data-settings="{&quot;script&quot;:&quot;\/\/securepubads.g.doubleclick.net\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;playstation&quot;,&quot;ptype&quot;:&quot;platform_faq_text&quot;,&quot;genre&quot;:&quot;Hardware,Console&quot;,&quot;publisher&quot;:&quot;SCEA&quot;,&quot;score&quot;:&quot;88&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;c&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;firstpg&quot;:1},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;omni-skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;omni-skybox-nav&quot;:{&quot;size&quot;:[[5,5],[6,6]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],[728,90],[970,66],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[5,5],[728,90],[970,66],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}" />
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="e9caee5d-a460-4965-b2c6-4cc78cd65630">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+		
+				<script class="optanon-category-C0002" type="text/plain">!function(co,h,e,s,i,o,n){ var d='documentElement';var a='className';h[d][a]+=' preampjs fusejs'; n.k=e;co._Cohesion=n;co._Preamp={ k:s,start:new Date};co._Fuse={ k:i };co._Tagular={ k:o };[e,s,i,o].map(function(x){ co[x]=co[x]||function(){ (co[x].q=co[x].q||[]).push([].slice.call(arguments)) } }); h.addEventListener('DOMContentLoaded',function(){ co.setTimeout(function(){ var u=h[d][a];h[d][a]=u.replace(/ ?preampjs| ?fusejs/g,'') },3e3); co._Preamp.docReady=co._Fuse.docReady=!0});var z=h.createElement('script'); z.async=1;z.src='https://cdn.cohesionapps.com/cohesion/cohesion-latest.min.js';h.head.appendChild(z); }  (window,document,'cohesion','preamp','fuse','tagular',{ 
+        tagular:{ writeKey:'wk_1kYs5eN6U9uIferNb8RjqpIOZy0', sourceKey:'src_1kYs5kGF0gH8ObQlZU8ldA7KFYZ', apiVersion: 'v2/t' } })
+       </script>
+
+       			<script>(function(){ if(window.BOOMR&&window.BOOMR.version){ return }var dom,doc,where,iframe=document.createElement("iframe"),win=window;function boomerangSaveLoadTime(e){ win.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(win.addEventListener){ win.addEventListener("load",boomerangSaveLoadTime,false)}else if(win.attachEvent){ win.attachEvent("onload",boomerangSaveLoadTime)}iframe.src="javascript:void(0)";iframe.title="";iframe.role="presentation";(iframe.frameElement||iframe).style.cssText="width:0;height:0;border:0;display:none;";where=document.getElementsByTagName("script")[0];where.parentNode.insertBefore(iframe,where);try{ doc=iframe.contentWindow.document}catch(e){ dom=document.domain;iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";doc=iframe.contentWindow.document}doc.open()._l=function(){ var js=this.createElement("script");if(dom){ this.domain=dom}js.id="boomr-if-as";js.src="//c.go-mpulse.net/boomerang/MYNP2-T3LG3-6AAGT-L5R5G-J95EV";BOOMR_lstart=(new Date).getTime();this.body.appendChild(js)};doc.write('<body onload="document._l();">');doc.close()})();</script>
+
+				<script type="text/javascript" src="/a/js/jquery_gf.20210521195711.js"></script>
+		<script type="text/javascript" src="/a/js/gamefaqs.20210521195711.js"></script>
+		<script type="text/javascript" src="/a/js/quill.20210521195711.js"></script>
+
+				<script type="text/javascript">
+		 function setUpAgknTag(tag){ tag.setBpId("cbsinteractive"); }
+		var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+		$('meta[id=view-guid-meta]').attr("content", vguid);
+		window.chsn_ad_id = vguid;
+		</script>
+
+		
+	  		  	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="afd6fcc3-97e8-40b2-8199-fc054fbcc8ab"></script>
+	  	<script src="//cmg1.cbsistatic.com/privacy/optanon/optanon-v1.1.0.js " type="text/javascript" id="bb-cbsoptanon" async></script>
+	  	<script>window.BidBarrel=window.BidBarrel||{ };window.BidBarrel.queue = window.BidBarrel.queue||[];</script><script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" type="text/javascript" async></script><script class="optanon-category-C0004" type="text/plain" charset="utf-8" src="//js-sec.indexww.com/ht/p/183728-151106130411182.js" async></script><script class="optanon-category-C0004" type="text/plain" charset="utf-8" src="//c.amazon-adsystem.com/aax2/apstag.js" async></script><script src="/a/js/bidbarrel-gamefaqs.20210521195711.js"></script>
+	  	<script class="optanon-category-C0004" type="text/plain" src="//js.agkn.com/prod/v0/tag.js" async></script>	  	<script type="text/javascript">!function(n){ var o=window,a="cbsoptanon",c="cmd",d="config";o[a]=o[a]?o[a]:{},o[a][c]=o[a][c]?o[a][c]:[],o[a][d]=o[a][d]?o[a][d]:[],["onIframesReady","onFormsReady","onScriptsReady","onAdsReady"].forEach(function(n){ o[a][n]=o[a][n]||function(){ var d=arguments;o[a][c].push(function(){ o[a][n].apply(o[a],d)})}})}();window.cbsoptanon.config.push({ enableServices: false,euMaxAttempts: 25,countryCodeMaxAttempts: 25,oneTrustTimeout: 700,setNpaOnConsentChange: true });</script>
+
+	</head>
+	<body class="">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_916392 s_ps">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/">Home</a></li><li><a href="/answers">Q&amp;A</a></li><li><a href="/boards">Boards</a></li><li><a href="/community">Community</a></li><li><a href="/contribute">Contribute</a></li><li><a href="/games">Games</a></li><li><a href="/new">What&rsquo;s&nbsp;New</a></li></ul><br /><ul class="sidenav_menu"><li><a href="/3ds">3DS</a></li><li><a href="/android">Android</a></li><li><a href="/iphone">iOS</a></li><li><a href="/pc">PC</a></li><li><a href="/ps3">PlayStation&nbsp;3</a></li><li><a href="/ps4">PlayStation&nbsp;4</a></li><li><a href="/ps5">PlayStation&nbsp;5</a></li><li><a href="/switch">Switch</a></li><li><a href="/vita">Vita</a></li><li><a href="/xbox360">Xbox 360</a></li><li><a href="/xboxone">Xbox One</a></li><li><a href="/xbox-series-x">Xbox Series</a></li><li><a href="/games/systems">More Systems</a></li></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/pc">PC</a><a href="/ps4">PS4</a><a href="/ps5">PS5</a><a href="/switch">Switch</a><a href="/xboxone">Xbox One</a><a href="/xbox-series-x">Xbox Series</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/games/systems" >More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="masthead_platform_subnav_item"><a href="/3ds">3DS</a></li><li class="masthead_platform_subnav_item"><a href="/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/ps2">PlayStation 2</a></li><li class="masthead_platform_subnav_item"><a href="/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/wii-u">Wii U</a></li><li class="masthead_platform_subnav_item"><a href="/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/games/systems">And 121 More...</a></li></ul></span></nav><div class="masthead_user">
+	<a href="/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/ps/916392-playstation/faqs/4708" /><input class="hidden" type="hidden" name="key" value="ec17196b">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email" />
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED" /><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login" />
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/user/recover">Forgot your username or password?</a><br /><br />
+	<a href="/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo"><a href="/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/search"><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles" /></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/answers" style="padding-right:15px;">Q&amp;A</a><a href="/boards">Boards</a><a class="navtrim" href="/community">Community</a><a class="navtrim" href="/contribute">Contribute</a><a class="navtrim" href="/games">Games</a><a class="notab" href="/new">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left">			<div class="header_image" style="background-image:url(/a/box/7/9/0/307790_thumb.jpg)"></div></div><div class="header_right">			<h1 class="page-title">PlayStation &ndash; Swap Trick FAQ</h1>			<h3 class="platform-title"><span class="header_more">PlayStation</span></h3><div class="gs_header_buttons"><span class="gs_hbtn_span"><button class="btn gs_hbtn gs_hb_notes" id="btn_gs_note" title="Your notes"><i class="fa fa-pencil-square-o" id="i_gs_note"></i></button><div id="gs_note" class="gsh_subnav gsh_subnav_wide"><a onclick="show_login();">Log In</a> to add custom notes to this or any other game.</div></span><span class="gs_hbtn_span"><button class="btn gs_hbtn gs_hb_notify" id="btn_gs_noty" title="Notify me"><i class="fa fa-bell-o" id="i_gs_noty"></i></button><div id="gs_noty" class="gsh_subnav">Notify me about new:<div class="gsh_track" id="track_any_faq"><i class="fa fa-bell-o gs_hb_notify"></i> Guides</div><div class="gsh_track" id="track_new_cheat"><i class="fa fa-bell-o gs_hb_notify"></i> Cheats</div><div class="gsh_track" id="track_new_review"><i class="fa fa-bell-o gs_hb_notify"></i> Reviews</div><div class="gsh_track" id="qna_track"><i class="fa fa-bell-o gs_hb_notify"></i> Questions</div></div></span><span class="gs_hbtn_span"><button type="button" id="btn_gs_fav" class="btn gs_hbtn gs_hb_favorite" title="Favorites"><i class="fa fa-heart-o" id="i_gs_fav"></i></button><div id="gs_fav" class="gsh_subnav">Add this game to my:<div class="gsh_track" id="mygames_hot_list"><i class="fa fa-heart-o gs_hb_favorite"></i> Favorites</div><div class="gsh_track" id="mygames_now_playing"><i class="fa fa-heart-o gs_hb_favorite"></i> Now Playing</div><div class="gsh_track" id="mygames_wish_list"><i class="fa fa-heart-o gs_hb_favorite"></i> Wish List</div><div class="gsh_track" id="mygames_play_queue"><i class="fa fa-heart-o gs_hb_favorite"></i> Play Queue</div></div></span></div></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/ps/916392-playstation/faqs">Guides</a></div><div class="cnav_imp cnav_item"><a href="/ps/916392-playstation/answers" style="padding-left:5px;padding-right:5px;">Q&amp;A</a></div><div class="cnav_imp cnav_item"><a href="/boards/916392-playstation">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div>	<ol class="content_nav content_nav_split">		<li class="cnav_item cnav_has_drop"><a href="/ps/916392-playstation">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/ps/916392-playstation">Summary</a></li><li class="csubnav_item"><a href="/ps/916392-playstation/data">Release Data</a></li><li class="csubnav_item"><a href="/ps/916392-playstation/credit">Game Credits</a></li><li class="csubnav_item"><a href="/ps/916392-playstation/stats">Collection Stats</a></li><li class="csubnav_item"><a href="/ps/916392-playstation/trivia">Game Trivia</a></li></ol></li>		<li class="cnav_item"><a href="/">Games</a></li>		<li class="cnav_imp cnav_item_active"><a href="/ps/916392-playstation/faqs">Guides</a></li>		<li class="cnav_imp cnav_item"><a href="/ps/916392-playstation/answers" style="padding-left:5px;padding-right:5px;">Q&amp;A</a></li>		<li class="cnav_item"><a href="/ps/916392-playstation/cheats">Cheats</a></li>				<li class="cnav_item"><a href="/ps/916392-playstation/reviews">Reviews</a></li>		<li class="cnav_item cnav_has_drop"><a href="/ps/916392-playstation/media">Media</a><ol class="content_subnav"><li class="csubnav_item"><a href="/ps/916392-playstation/images">Images</a></li><li class="csubnav_item"><a href="/ps/916392-playstation/videos">Videos</a></li></ol></li>				<li class="cnav_imp cnav_item"><a href="/boards/916392-playstation">Board</a></li></ol></nav>
+<script type="text/javascript">
+$().ready(function() {
+	var notesaveInt;
+
+	$('#js_content_nav_toggle').click(function()
+	{
+		$('.content_nav_wrap').toggleClass('content_nav_open');
+	});
+
+	$(document).mouseup(function(e){
+	    $("#gs_fav, #gs_noty, #gs_note").each( function(container) {
+	    	var container = $(this);
+		    if(!container.is(e.target) && container.has(e.target).length === 0 && container.is(':visible')){
+		    	if(e.target.id.indexOf(container.attr('id')) < 1)
+	        		container.hide();
+						    }
+	    });
+	});
+
+	$(".gs_hbtn").click( function() {
+		var id = $(this).attr('id').substr(4);
+		$('#' + id).toggle();
+	});
+
+			$(".gsh_track").click(function() {
+			show_login();
+		});
+	});
+</script>
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/"><img src="/a/images/site/g_v13_dark.png" alt="GameFAQs" /></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="search_head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(4708, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(4708, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength=140 rows=2 placeholder="How did this guide help you? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(4708, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">Swap Trick FAQ by <a class="contrib1" href="/community/JMuir">JMuir</a></h2>
+		<p>
+						<b>Version:</b> 2.25 | <b>Updated:</b> 04/01/1996														</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<div class="faqtext" id="faqtext"><pre id="faqspan-1">From: john.muir@almac.co.uk (John)
+Newsgroups: alt.games.video.sony-playstation,rec.games.video.sony
+Subject: Play Imports For FREE!
+Date: Wed, 08 May 1996 22:57:36 GMT
+
++----------------------------------------------------------------------------+
+||                                                                          ||
+||          HOW TO DEFEAT THE PLAYSTATION GEOGRAPHICAL PROTECTION           ||
+||               Mini FAQ --- Version 2.25 --- April 1996                   ||
+||                     (c) Copyright John Muir 1996                         ||
+||       Beware of cheap imitations : Get the ORIGINAL and the best!        ||
+||       Latest version at http://www.geocities.com/SunsetStrip/4943        ||
+||                                                                          ||
++----------------------------------------------------------------------------+
+
+
+ ============================================================================
+
+
+  Copyright and Usage Conditions:
+
+   Anyone who wishes to post this MFAQ on a Web page or some other Internet 
+   or non Internet resource may do so providing the MFAQ is left in its 
+   ORIGINAL form and the work is not credited as your own.  I reserve the
+   right to deny permission for ANY commercial use of this MFAQ whether  
+   that is in printed or digital form.  Please remove ALL versions before 
+   2.22 as they are now outdated.
+
+  Disclaimer:
+
+   I cannot be held for responsible for any damage caused through direct or
+   indirect use of the instructions detailed within this MFAQ.  Got that  
+   doofus5@aol.com and beavis12@ix.netcom.com?
+
+
+ ============================================================================
+
+
+ &gt; Why does this MFAQ exist?
+  
+   Sony, in its infinite wisdom, has decided that you should only be 
+   able to play officially released games for your area.  European games 
+   in Europe, Japanese games in Japan and so on.  This MFAQ is for people 
+   who wish to play &quot;foreign&quot; or &quot;import&quot; games.
+
+ &gt; What?  You mean I can't run Dragon Ball Z in my American machine!?
+  
+   I'm afraid not.  Try booting ANY Japanese CD in your US machine and it
+   won't work.  You will get a message stating this is not a suitable CD
+   for your machine.  Needless to say, this also applies to all other
+   possible combination of machines and software.
+
+ &gt; Is the situation hopeless?  Will I never be able to play &quot;imports&quot;?
+  
+   Not at all.  Datel UK *hope* to have a commercial adaptor ready soon
+   which will plug into the I/O slot at the back of your machine, this
+   will remove the regional boot-up protection and allow you to use ANY
+   title on ANY machine without reverting to any form of trick or kludge.
+   Check their Web page (there is a link to it at my URL above) for any 
+   news.
+    
+   Also, certain less-than-scrupulous dealers now have blue PlayStation 
+   development ROMs which allow you boot ANY game without the need for a 
+   boot CD (including pirate copies.)  I have been quoted a price of 50 UKP 
+   (US $75) plus shipping for this ROM so I think I will stick with the 
+   humble swap trick for now (any warranty you have will also be invalidated 
+   by this procedure, obviously.)  
+   
+   NB: Remember that ANY company offering these blue PlayStation ROMs could 
+   well be subject to a law suit from Sony which would negate any warranty 
+   you many have been given by them as they would be too busy staying out of 
+   jail to fix your machine.  How this ROM swap would affect your machine
+   with regard to running games in the future is unclear as I have been told
+   that a simple check can detect the blue ROMs and prevent software from
+   running.
+
+   Another modification exists which involves the fitting of a small
+   daughterboard inside your PlayStation but details are sketchy at the 
+   present time.  However, as far as I can ascertain this mod is legal.
+
+ &gt; But I want to play imports NOW!
+     
+   OK, since you asked here is how you can play most (if not all) 
+   foreign CDs on your machine.
+                                                                          
+
+ ============================================================================
+
+  
+  
+  Please check the table below to determine what Swap Method is best for
+  your particular machine.  NB: the Double method will work on ALL models
+  of the PlayStation but is NOT very easy to do so I have only listed it
+  if your machine ONLY supports this method and no other.
+
+  Model Number                  Country of Origin             Swap Trick?
+
+  -----------------------------------------------------------------------
+
+  SCPH-1000 [Initial batch]           JAPAN                   Yes, all
+  SCPH-1000 [Second batch]            JAPAN                   Yes, black
+  SCPH-3000 [Initial batch]           JAPAN                   Yes, black
+  SCPH-3000 [Second batch]            JAPAN                   Yes, double
+  SCPH-3500 [Third batch]             JAPAN                   Not known
+  SCPH-1001 [Initial batch]           USA                     Yes, all
+  SCPH-1001 [S/N 592xxx or higher] *  USA                     Yes, double
+  SCPH-1002 [Initial batch]           PAL                     Yes, all
+  SCPH-1002 [Second batch]            PAL                     Yes, double
+  SCPH-2000 [Development machine]     N/A                     N/A
+
+  * S/N = serial number, importantly linked to date of manufacture.
+
+  -----------------------------------------------------------------------
+
+
+ ============================================================================
+  
+  
+  There are five methods which allow you to use almost ANY PlayStation CD
+  in ANY PlayStation, regardless of origin.  I have yet to hear of any 
+  hardware damage using these methods although this doesn't mean that it 
+  hasn't happened.  Please understand NOT all PlayStations are created the
+  same.
+
+  The five methods are detailed below (one very easy, three quite easy and 
+  one difficult.)  Various terms are used below, please be sure you know
+  exactly what they mean before attempting any of the swap methods:
+
+
+  LOCAL:  
+  
+  A CD which is intended for your region, most likely bought at a local 
+  store.  The pack-in demo CD is a &quot;local&quot; disc.
+
+  FOREIGN:  
+
+  Any CD which contains territory information other than that of the host
+  machine.  Japanese, European and Australian CDs are all foreign if you  
+  have a US machine.
+
+  NTSC and PAL:
+
+  It is important to note that running a PAL (Australia, Europe) on your
+  NTSC machine (US, Japan) or vice versa can cause display problems.
+  Take this into consideration when buying/using imports.  See below for
+  possible solutions.
+  
+  ROM:
+
+  The Read Only Memory section of your PlayStation where the different
+  country protection routines are stored.
+
+  AUDIO MENU:
+
+  Designed for listening to audio CDs or the audio tracks stored on PS 
+  CD-ROMs but also provides a handy backdoor for swap trick-ers.
+
+  LID SENSOR:
+
+  A small button shaped object located near the CD tray at the rear on the
+  right hand side.  Indicates to the PlayStation whether the lid is open or
+  closed and essential for any swap trick.
+
+  BLACK and WHITE SCREENS:
+
+  The White screen is the initial screen that appears on bootup and the
+  Black screen is the first thing to appear when you boot a valid CD-ROM. 
+
+
+ ============================================================================
+
+
+  METHOD ONE:  The Audio Menu [Safe and very easy]
+  ------------------------------------------------
+
+  Works on :  Very early Japanese, European and American machines.
+  Success  :  80%  
+  Problems :  Music is often corrupted.  The TOC (Table of Contents)
+              from the boot CD is always used which is less than ideal. 
+  
+  
+  o  Power up your PlayStation WITHOUT a game or demo CD in it.
+
+  o  Select the CD Audio menu.
+
+  o  Get a local CD that matches the country of the machine you
+     have.  (ie a Japanese game for a Japanese PlayStation etc.)
+
+  o  Find some tape, Blu-Tak or something similar.  Several people I know
+     have found the corner from a cornflake packet works well &lt;shrug&gt;.
+
+  o  Open the lid and look at the top right of the bottom section,
+     near where the hinge is.  See the small circle in the groove?
+     Good.  This is the lid sensor.
+
+  o  Insert your local CD.
+
+  o  Put the tape, Blu-Tak or whatever over the sensor and *gently*
+     push it down.  The CD will now spin for a few seconds.
+
+  o  When the CD has finished spinning take it out and replace it
+     with the foreign game you wish to play.
+
+  o  Now shut the lid and exit the CD Audio menu.  The game should
+     now work fine (see above for exceptions.)
+
+  o  When you have finished playing, open the lid and remove the
+     tape, Blu-Tak etc from the sensor.  This will stop the CD.
+
+
+  Notes:
+
+  i    Try and get a local CD with as many tracks on it as you can.
+       The local CD must have at least as many tracks as the foreign CD
+       or you won't get all the music.  Depending on the boot CD the
+       foreign game may give poor results or even crash.
+        
+       Unfortunately the number of music tracks is NOT the only deciding
+       factor (the length of the data track is another) and you may find
+       that you are unable to get your foreign game to work satisfactorily
+       with the choice of boot CDs you have.  See the other methods, they
+       may give better results.
+
+  ii   Owners of Japanese SCPH-1000 (later batch), SCPH-3000 machines and
+       later European/US models will find that this method does NOT
+       work.  Sony has removed this particular loophole in the latest ROM
+       revision.
+
+  iii  You can ONLY run PAL games on NTSC machines if you have an RGB
+       cable (not s-video, composite or ANYTHING else.)  This also
+       applies to NTSC games on a PAL machine.  In Europe this problem
+       is easily solved by investing in an import spec RGB/SCART cable
+       as sold for use with Japanese/US PlayStations.  In North America,
+       Australia etc you will need to look into the options available to
+       you (an old or expensive monitor, probably.)  I understand a cable
+       for 1084 monitors will shortly be available in the US.
+
+
+  METHOD TWO:  The OLD Black Method [Fairly safe and easy]
+  --------------------------------------------------------
+
+  Works on :  All early machines, see above for meaning of &quot;early&quot;.
+  Success  :  85%  
+  Problems :  Most games will work albeit sometimes with music glitches
+              or unexpected crashes.
+
+
+  o  Follow the Audio method with a local CD in your machine.  The lid
+     should be up and the lid sensor held down.
+
+  o  When the black PlayStation screen appears (after the white Sony one) 
+     QUICKLY lift the original game out and replace with the foreign one.  
+     You have a few seconds to do this and it soon becomes second nature.
+
+  o  If you must have the music working 100% or have a really stubborn
+     foreign game then try the NEW Black method detailed below.
+
+
+  METHOD THREE:  The NEW Black Method [Fairly safe but tricky]
+  ------------------------------------------------------------
+  
+  Works on :  The same machines that can do the OLD Black trick.
+  Success  :  100%  
+  Problems :  Not supported by all models.
+
+
+  o  This method is a variant on the White Audio menu method but involves
+     an extra step where you basically &quot;piggy back&quot; the OLD Black method
+     onto the White Audio menu hybrid.
+
+  o  Try and get a local CD with lots of music tracks as this gives you a
+     little extra time to perform the first swap.
+
+  o  Go to the Audio menu and press down the sensor, remove the local CD
+     just before the audio tracks pop up and replace with the foreign CD.
+     The foreign CD's tracks should appear and NOT those of the local CD.
+
+  o  Replace the boot CD and exit the CD Audio menu.
+
+  o  At the Black screen, replace the import CD as in the original method.
+
+  Note: 
+  
+  The territory information that normally appears before the TM at the 
+  Black screen will be corrupted, this is normal.
+  
+  
+  METHOD FOUR:  The White Method(s) [Fairly safe but tricky]
+  ----------------------------------------------------------
+
+  Works on :  The same very early models that can do the Audio method.
+  Success  :  100% 
+  Problems :  Not supported by all models.
+
+
+  o  Switch on your machine and count  1..2..3..4 and THEN swap discs.  You
+     need to do this *JUST* before the white Sony screen appears.  The
+     timing is tough, you want the PS to read the country code but NOT the
+     TOC so don't expect to get it right every time.
+
+  o  Another variation is to use a hybrid Audio Menu swap trick:  remove the
+     boot CD and replace it with the &quot;foreign&quot; game just after the original
+     country code is read and before the TOC.  Many people find this method
+     easier then the original White method.  
+
+  Note:
+
+  If you have performed the swap correctly then the import CD audio tracks
+  will be shown NOT those of the local CD.
+
+
+  METHOD FIVE:  The Double Swap Method [Fairly safe but pretty tricky]
+  --------------------------------------------------------------------
+
+  Works on :  All PlayStations to date, including the latest models.
+  Success  :  100%   
+  Problems :  Do not kid yourself, this method IS difficult.  The end
+
+              result is well worth it (especially if you have no other 
+              options.)
+  
+
+ ============================================================================
+
+                              I M P O R T A N T
+
+  I can NO LONGER accept any more questions on this method, everything you
+  need to know is here.  Please, please do not e-mail me asking for help.
+
+ ============================================================================
+
+
+  Note:  
+  
+  1x and 2x refer to the CD motor speed (single speed and double speed), 
+  watch a few of your games boot up with the lid open and you can easily 
+  see and hear the &quot;gear changes&quot;.  To get full music timing is highly 
+  critical otherwise the original TOC is used.
+  
+  
+  o  Insert your local CD.
+
+  o  Remove the local CD when the motor changes to 2x and replace it
+     with your foreign CD.
+
+  [If you did this right, you *SHOULD* see the black PS screen now.]
+
+  o  Watch and listen to the CD motor.  It will slow down and then
+     speed back up to 2x.
+
+  o  After a few seconds, the CD motor will slow down again.  Replace
+     with your local CD once again.
+
+  o  After another half second or so, the local CD will speed up again.
+     Finally replace your foreign CD.  
+
++----------------------------------------------------------------------------+
+||                                                                          ||
+||                               C R E D I T S                              ||
+||                                                                          ||
+||  Marty Chinn ....................... (for the SCPH-1000 and other info)  ||
+||  Joe @ Tronix ...................... (for the White method)              ||
+||  Tony in Hong Kong ................. (for the Audio and Black methods)   ||
+||  Nelson Fong ....................... (for the Double method)             ||
+||                                                                          ||
++----------------------------------------------------------------------------+
+        
+
+
+</pre></div>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({ 'width':'100%','max-width':'100%' });
+	else
+		$(this).css({ 'width':'auto','max-width':'none' });
+});
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+		if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){ faq_search(4708, $('#faq_search_input').val()) },150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  { id: 4708, term: term, key: 'ec17196b' },
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+										if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+										{
+						link = "search_highlight(4708,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: 'ec17196b' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('pre#faqspan-'+window.textpage).html(response);
+				$.each($('.ffaq img.imgnofloat'),function(){
+			var image = $(this);
+			if(image.attr('width')>400)
+			{
+				image.addClass('bigresize');
+			}
+		});
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 4708, pid: 916392, pos: pos, page: page, section: '', auto: auto, key: 'ec17196b' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({ 'opacity':0 },200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({ 'opacity':1 },200);
+					$('.faq_bookmark_jumper').animate({ 'opacity':1 },200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({ 'opacity':0 },200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({ 'opacity':0 },200,function()
+					{
+						$(this).html($.trim(html)).animate({ 'opacity':1 },200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: 'ec17196b' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebPage",
+	"headline":"PlayStation Swap Trick FAQ",
+	"image":"/a/box/7/9/0/307790_thumb.jpg",
+	"author":"JMuir",
+	"datePublished":"1996-04-01",
+	"dateModified":"1996-04-01",
+	"url":"https://gamefaqs.gamespot.com/ps/916392-playstation/faqs/4708",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"/a/images/site/logo_v13.png",
+			"width":"190",
+			"height":"60"
+		}
+	},
+	"genre":"Hardware",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"PlayStation",
+		"url":"https://gamefaqs.gamespot.com/ps/916392-playstation",
+		"image":"/a/box/7/9/0/307790_thumb.jpg",
+		"description":"Look at these exciting &quot;PlayStation&quot; features :
+- Double speed CD-ROM
+- Custom multiple processors for 3D graphics and CD stereo quality sound.
+- Full frame video at 30 frames per second.
+- 16.8 million simultaneous colors
+- 360,000 polygons per seconds
+- Dedciated 32-bit RISC CPU
+- 2 MB of RAM
+- 1 MB of VRAM
+- Realistic 3D graphics in real time
+- High quality stereo sound
+- Fast, responsive gameplay
+- Ever-changing 3D perspectives
+- Broadcast quality resolution
+
+&quot;PlayStation&quot;...",
+		"datePublished":"1995-09-09",
+				"publisher":"SCEA",
+		"genre":["Hardware","Console"],
+		"gamePlatform":["PS"],
+		"operatingSystem":["PS"],
+		"applicationCategory":"Game",
+		"sameAs":"https://www.gamespot.com/games/playstation/",
+		"keywords":"ps, psx"
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://gamefaqs.gamespot.com/ps",
+					"name": "PlayStation"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://gamefaqs.gamespot.com/ps/category/263-hardware",
+					"name": "Hardware"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://gamefaqs.gamespot.com/ps/category/264-hardware-console",
+					"name": "Console"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://gamefaqs.gamespot.com/ps/916392-playstation/faqs/4708",
+					"name": "PlayStation Swap Trick FAQ"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+						
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/" class="footer_logo_gf">GameFAQs</a><a href="http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/user/change_color?site_color=blue&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-blue&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=red&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-red&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=green&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-green&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=orange&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-orange&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=purple&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-purple&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=cloudy&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=grayscale&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=sepia&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=cottoncandy&amp;path=%2Fps%2F916392-playstation%2Ffaqs%2F4708">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row"><p><a href="https://www.gamespot.com/?utm_source=gamefaqs&utm_medium=partner&utm_content=footer&utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a></p><p><span class="footer_break"></span><a href="http://gamefaqs.gamespot.com/sitemap">Sitemap</a><a href="mailto:gamespotpartnerships@redventures.com">Partnerships</a><a href="https://careers.redventures.com/">Careers</a><a href="https://redventures.com/CMG-terms-of-use.html">Terms of Use</a></p><p><span class="footer_break"></span><a href="https://redventures.com/privacy-policy.html">Privacy Policy</a><a class="ot-sdk-show-settings">Cookie Settings</a><a href="https://privacyportal.onetrust.com/webform/79ba7c84-ebc2-4740-8d11-bf1cc4501e59/ae88e03f-2b16-4276-9980-27124ba4b2c1">Do Not Sell My Information</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2021 GAMESPOT, A RED VENTURES COMPANY. ALL RIGHTS RESERVED.</p></div></div></footer>
+
+
+							
+		</div>
+		
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		
+<script type="text/javascript">
+window.BidBarrel.queue.push(function(resolve){
+	const googletag = window.googletag;
+	googletag.cmd.push(function(){ googletag.pubads().addEventListener('slotRenderEnded',revdbg); });
+	resolve();
+});
+
+// utag_data
+(function(){ let utag_data;try{ utag_data=JSON.parse($('#utag-data').attr('content')); }catch(e){ utag_data={}; }window.utag_data=$.extend({},window.utag_data,utag_data); })();
+</script>
+
+<script type="text/plain" class="optanon-category-C0002">
+    (function(a,b,c,d){    
+    a='//tags.tiqcdn.com/utag/redventures/gamefaqssite/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+
+<script src="/a/js/adDivManager.20210521195711.js"></script>
+<script src="/a/js/adManager.20210521195711.js"></script>		
+<!--Page built in 18 ms on 2021-05-24 04:49:32 on box #101 (CSS 20210521195711 JS 20210521195711)- O 4.4 / S 10.4 / M 3.2 / U 0 / SC 9-->
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"NRBR-a22c617a7b2aab2da1c","applicationID":"578849005","transactionName":"NgYBNkBYWEEEAURQWg9MNhBbFkZTAgdDFlMIDwZMQlFG","queueTime":0,"applicationTime":19,"atts":"GkECQAhCS08=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
